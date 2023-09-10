@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 1300px;
+  height: 1200px;
+  border: 1px solid;
+}
+
+/*# sourceMappingURL=main.css.map */
