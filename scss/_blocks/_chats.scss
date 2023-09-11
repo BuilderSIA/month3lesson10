@@ -26,6 +26,9 @@
             margin-top: 40px;
             margin-left: 35px;
         }
+        .telversion{
+            display: none;
+        }
     }
 }
 
@@ -81,10 +84,10 @@
 @media screen and (max-width: 400px){
     .chats{
         width: 100%;
-        height: 900px;
+        height: 1200px;
         &__left{
             width: 90%;
-            height: 50%;
+            height: 30%;
             margin-left: 0;
             .bigText{
                 margin-top: 60px;
@@ -95,9 +98,12 @@
         }
         &__right{
             height: 50%;
-            img{
-                width: 180%;
-                margin-top: 0;
+            #compversion{
+                display: none;
+            }
+            #telversion{
+                display: block;
+                margin-top: -50px;
             }
         }
     }
