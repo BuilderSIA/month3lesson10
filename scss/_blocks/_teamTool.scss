@@ -1,0 +1,135 @@
+.teamTool{
+    width: 1300px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    // border: 1px solid;
+    display: flex;
+    &__left{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        // border: 1px solid;
+        background: url(/images/Image\ \(3\).png) 120px 100px no-repeat;
+        background-size: 80%;
+        .appDesign{
+            width: 150px;
+            margin-top: 380px;
+            margin-left: 150px;
+        }
+        .george{
+            width: 150px;
+            margin-left: 150px;
+            margin-top: 10px;
+        }
+    }
+    &__right{
+        width: 50%;
+        height: 100%;
+        // border: 1px solid;
+        .bigText{
+            font-size: 250%;
+            width: 60%;
+            margin-top: 250px;
+            margin-left: 100px;
+        }
+        p{
+            width: 52%;
+            margin-left: 100px;
+        }
+        a{
+            margin-left: 100px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .teamTool{
+        width: 100%;
+        &__left{
+            width: 50%;
+            height: 100%;
+            background-size: 150%;
+            background-position-x: -150px;
+            background-position-y: 0;
+            .appDesign{
+                width: 180px;
+                margin-top: 280px;
+                margin-left: 20px;
+            }
+            .george{
+                width: 180px;
+                margin-left: 20px;
+            }
+        }
+        &__right{
+            .bigText{
+                margin-top: 100px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width: 400px ){
+    .teamTool{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        &__left{
+            width: 100%;
+            height: 50%;
+            background-size: 100%;
+            background-position: 0px -20px;
+            .appDesign{
+                width: 120px;
+                margin-top: 150px;
+            }
+            .george{
+                width: 120px;
+            }
+        }
+        &__right{
+            width: 100%;
+            height: 50%;
+            .bigText{
+                width: 80%;
+                margin-left: 50px;
+            }
+            p{
+                margin-left: 50px;
+                width: 67%;
+            }
+            a{
+                margin-left: 50px;
+            }
+        }
+    }
+}

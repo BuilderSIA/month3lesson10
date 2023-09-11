@@ -1,0 +1,151 @@
+.footer{
+    width: 1300px;
+    height: 400px;
+    margin: 0 auto;
+    background: #232340;
+    color: #F5F5F5;
+    ul{
+        margin-top: 0;
+    }
+    li{
+        list-style: none;
+        margin-bottom: 20px;
+        h3{
+            margin-top: 0;
+            color: #5468E7;
+        }
+    }
+    &__top{
+        margin-top: 0;
+        margin-left: 150px;
+        display: flex;
+        width: 70%;
+        height: 60%;
+        justify-content: center;
+        align-items: center;
+        &-left{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        &-midCont{
+            margin-top: 50px;
+            display: flex;
+            .Company{
+                width: 150px;
+            }
+            .Features{
+                width: 200px;
+            }
+        }
+        &-right{
+            margin-top: -45px;
+            
+            .input{
+                display: flex;
+                a{
+                    margin-left: -20px;
+                    color: #F5F5F5;
+                }
+                .ftrinp{
+                    width: 200px;
+                    height: 30px;
+                    background-color: rgba(245, 245, 245, 0.24);
+                    color: #F5F5F5;
+                    margin-left: 35px;
+                    border-top-right-radius: 5px;
+                    border-top-left-radius: 5px;
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                }
+            }
+        }
+
+    }
+    &__btm{
+        width: 100%;
+        height: 40%;
+        p{
+            width: 100%;
+            height: 20%;
+            margin-top: 120px;
+            margin-left: 150px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .footer{
+        width: 100%;
+        height: 800px;
+        &__top{
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            margin-top: 20px;
+            margin-left: 50px;
+            &-left{
+                margin-top: 50px;
+                width: 30%;
+            }
+            &-midCont{
+                margin-top: 50px;
+            }
+            &-right{
+                margin-top: 50px;
+            }
+        }
+        &__btm{
+            p{
+                margin-top: 270px;
+                margin-left: 70px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px){
+    .footer{
+        width: 100%;
+        height: 1300px;
+        &__top{
+            &-midCont{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        &__btm{
+            p{
+                margin-top: 470px;
+            }
+        }
+    }
+}
