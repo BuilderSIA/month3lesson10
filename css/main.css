@@ -181,11 +181,11 @@
   width: 65%;
   height: 100%;
 }
-.chats__right img {
+.chats__right #compversion {
   margin-top: 40px;
   margin-left: 35px;
 }
-.chats__right .telversion {
+.chats__right #telversion {
   display: none;
 }
 
